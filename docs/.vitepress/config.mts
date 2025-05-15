@@ -1,0 +1,49 @@
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "MDM Docs",
+  description: "A VitePress Site",
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      // { text: 'Home', link: '/' },
+      { text: 'Installation', link: '/mdm-install-guide' },
+      { text: 'Manual', link: '/mdm-user-manual' },
+    ],
+
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/api-examples' },
+    //     ]
+    //   }
+    // ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ],
+
+    search: {
+      provider: 'local'
+    },
+
+    footer: {
+      message: 'MDM Docs.',
+      copyright: 'Copyright © 2019-present MDM'
+    }
+  },
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    zhs: {
+      label: '简体中文',
+      lang: 'zhs', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/zhs' // default /zhs/ -- shows on navbar translations menu, can be external
+    }
+  }
+})
