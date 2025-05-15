@@ -32,7 +32,7 @@ export default defineConfig({
 
     footer: {
       message: 'MDM Docs.',
-      copyright: 'Copyright © 2019-present MDM'
+      copyright: 'Copyright © 2024-present MDM Team'
     }
   },
   locales: {
