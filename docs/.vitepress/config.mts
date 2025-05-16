@@ -12,19 +12,21 @@ export default defineConfig({
       { text: 'Manual', link: '/mdm-user-manual' },
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' },
-    //     ]
-    //   }
-    // ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    sidebar: [
+      {
+        // text: 'Examples',
+        items: [
+          { text: 'Installation', link: '/mdm-install-guide' },
+          { text: 'Manual', link: '/mdm-user-manual' },
+          // { text: 'Markdown Examples', link: '/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/api-examples' },
+        ]
+      }
     ],
+
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ],
 
     search: {
       provider: 'local'
@@ -32,7 +34,7 @@ export default defineConfig({
 
     footer: {
       message: 'MDM Docs.',
-      copyright: 'Copyright © 2019-present MDM'
+      copyright: 'Copyright © 2024-present MDM Team'
     }
   },
   locales: {

@@ -12,7 +12,7 @@ The `MDM Launcher` is a software tool for managing services and programs in the 
 - **Advanced Checkbox**: Toggles the visibility of advanced controls for individual programs and services.
 - **Settings Button (⚙)**: Opens the settings dialog to configure application settings.
 
-![Advanced View](advance-view.png)
+![Advanced View](./advance-view.png)
 
 ### 2. Service Section
 - Shows the main service (`MDMService`) is running (`● Running`) or stopped (`○ Stopped`)
@@ -54,7 +54,7 @@ Stopping MySQL or Redis will automatically stop the main service, as it depends 
 ### 6. Settings Dialog
 The `Settings Dialog` allows users to configure essential application settings, such as ports for backend services and the web interface.
 
-![Settings Dialog](settings-dialog.png)
+![Settings Dialog](./settings-dialog.png)
 
 1. Click the **Settings Button (⚙)** to open the settings dialog.
 2. Modify the configuration as needed.
@@ -67,7 +67,7 @@ Ensure all components are stopped before making configuration changes.
 
 ## 🔧 Usage
 
-![Launch](launch.png)
+![Launch](./launch.png)
 
 ### 🟢 Starting All Components
 1. Click the **Start** button to start all services and programs.
@@ -86,4 +86,4 @@ Ensure all components are stopped before making configuration changes.
 1. If any components are running, you will be prompted to confirm the exit.
 2. Choose "Yes" to stop all components and exit, or "No" to cancel.
 
-![Exit Stop All](exit-stop-all.png)
+![Exit Stop All](./exit-stop-all.png)
