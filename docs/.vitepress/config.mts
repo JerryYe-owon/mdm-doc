@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "MDM Docs",
   description: "A VitePress Site",
+  base: '/mdm-doc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
