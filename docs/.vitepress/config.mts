@@ -26,7 +26,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://jerryye-owon.github.io/mdm-doc/' }
+      { icon: 'github', link: 'https://github.com/JerryYe-owon/mdm-doc/' }
     ],
 
     search: {
